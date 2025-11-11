@@ -73,8 +73,6 @@ curl -X POST "http://localhost:8000/register" \
 curl http://localhost:8000/health
 ```
 **Ответ:** `{"status":"healthy","database":"connected"}`
-```
-
 
 # Безопасность: что сделано
 
