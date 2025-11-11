@@ -4,14 +4,6 @@
 
 ## Архитектура
 
-
-┌─────────────┐    HTTP     ┌─────────────┐    SQL     ┌─────────────┐
-│  Frontend   │ ──────────→ │   Backend   │ ─────────→ │  Database   │
-│  (React)    │ ←────────── │  (FastAPI)  │ ←───────── │ (PostgreSQL)│
-│ localhost:3000 │          │ localhost:8000 │         │ localhost:5432 │
-└─────────────┘             └─────────────┘         └─────────────┘
-
-
 - **Frontend**: React + TypeScript + Vite
 - **Backend**: FastAPI с хэшированием паролей Argon2  
 - **Database**: PostgreSQL с уникальными ограничениями
