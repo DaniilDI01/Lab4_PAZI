@@ -1,0 +1,27 @@
+# Создай файл .gitignore в корне проекта
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# But include .env.example
+!.env.example
+EOF
